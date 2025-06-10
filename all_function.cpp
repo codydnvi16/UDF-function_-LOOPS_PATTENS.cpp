@@ -1,40 +1,40 @@
 #include<iostream> 
 using namespace std;
 
-/*int add(int a ,int b){                    // function with argu and with return
+int add(int a ,int b){                    // function with argu and with return
     return a+b;
 }
 int main()
 {
     int x,y;
-    cout << "enter valu:" << endl;
+    cout << "enter value:" << endl;
     cin >> x>>y;
    // add(x,y);
    cout << "ans is: "<< add(x,y);
     return 0;
 } 
-    */
+    
 
                                               //function with argu withouttt return
                                 
-/*void max( int a  , int b)
+void min( int a  , int b)
 {
     if(a < b){
-        cout <<"mini"<<a;
+        cout <<"minimum"<<a;
     }else{
-        cout<<"minui"<<b;
+        cout<<"minimum "<<b;
     }
 }
 int main(){
      int a,b;
      cout <<" enter value";
      cin >> a >> b;
-     max(a,b); 
+     min(a,b); 
      return 0;
 }
-*/
+
                                 //function without argui with return ''''''''
-/*                               
+                         
 int even(){ 
      int num;
      cout << "enter value";
@@ -51,9 +51,9 @@ int main()
  cout << even() << endl; 
      return 0; 
 }
-*/
+
                        // function withoutt arguu withouttt returnnn ;;;
-/*
+
 void odd(){
     int num;
     cout <<"enter value";
@@ -71,10 +71,10 @@ int main(){
      return 0;
 }
 
-  */
+  
 
  // function withoutt arguu withouttt returnnn ;;;
- /* void odd(); 
+  void odd(); 
 int main(){
       int num;
        
@@ -89,4 +89,3 @@ int main(){
 void odd(){
     odd();
 }
-*/
