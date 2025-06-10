@@ -89,3 +89,21 @@ int main(){
 void odd(){
     odd();
 }
+// Perform swapping programming with using function with argument without return 
+
+ void swap(int a,int b){
+     int temp=a;
+     a=b;
+     b=temp;
+     cout << "after swap:"<< a<< endl;
+     cout << "after value b"<< b<< endl;
+    }
+    int main(){
+      int a,b;
+      cout << "enter value a"<< endl;
+      cout << "enter value b"<< endl;
+      cin >> a;
+      cin >> b;
+       swap(a,b);
+      return 0;
+    }
