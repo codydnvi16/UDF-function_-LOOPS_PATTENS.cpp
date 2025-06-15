@@ -1,7 +1,8 @@
 #include<iostream>
 using namespace std;
+
 int main(){
-// WHILE LOOp
+                            // WHILE LOOp
           int i=1,sum=0;
           while (i<=5)
  {
@@ -13,7 +14,8 @@ return 0;
 } 
 //----------------------------------------------------------------
 
-// DO__WHILE LOOP
+                           // DO__WHILE LOOP
+
 // Sum of N numbers using DO _while loop
 int main(){
      int i=1,sum=0,n=5;
@@ -25,9 +27,10 @@ int main(){
      }while(i<=n);
      return 0;
 }
- //----------------------------------------------------------------
+//----------------------------------------------------------------
 
-// FOR LOOP
+                              // FOR LOOP
+
 // Sum oF numbers using for loop
 int main(){
       int sum=0,i;
@@ -38,6 +41,7 @@ int main(){
       return 0;
 }
 //----------------------------------------------------------------------
+
 // sum of all numbers from 1_N which are divisible by 3;;
 
      int main(){
